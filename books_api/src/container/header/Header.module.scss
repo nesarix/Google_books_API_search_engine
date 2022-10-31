@@ -1,0 +1,6 @@
+@use "../../../resources/partials/palette";
+.headerStyle {
+	text-align: center;
+	background-color: palette.$displayCard_bg;
+	border-radius: 8px;
+}

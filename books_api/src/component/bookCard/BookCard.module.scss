@@ -1,0 +1,17 @@
+@use "../../../resources/partials/palette";
+
+.coverImage {
+	width: 150px;
+	height: 200px;
+	display: block;
+	margin: 15px;
+}
+
+.Card {
+	text-align: center;
+	background-color: palette.$displayCard_bg;
+	max-width: 300px;
+	border: 1px solid black;
+	margin: 15px;
+	border-radius: 25px;
+}
