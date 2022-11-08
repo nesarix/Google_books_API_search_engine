@@ -5,13 +5,16 @@
 	height: 200px;
 	display: block;
 	margin: 15px;
+	padding-left: 35px;
 }
 
 .Card {
 	text-align: center;
+	display: flex;
+	flex-direction: column;
 	background-color: palette.$displayCard_bg;
-	max-width: 300px;
-	border: 1px solid black;
+	width: 250px;
 	margin: 15px;
+	padding: 0 5px 0 5px;
 	border-radius: 25px;
 }

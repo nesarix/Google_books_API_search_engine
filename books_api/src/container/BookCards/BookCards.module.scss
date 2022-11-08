@@ -1,0 +1,16 @@
+@use "../../../resources/partials/palette";
+
+.cardComponent {
+	display: flex;
+}
+
+.error {
+	text-align: center;
+	// display: flex;
+	// flex-direction: column;
+	background-color: palette.$displayCard_bg;
+	// width: 250px;
+	margin-top: 15px;
+	padding: 0 5px 0 5px;
+	border-radius: 8px;
+}
